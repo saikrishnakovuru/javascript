@@ -21,6 +21,8 @@ const restaurant = {
       close: 24,
     },
   },
+
+  orderPizza: function (ingrediant) {},
 };
 
 //=================================================================

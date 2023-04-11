@@ -6,7 +6,6 @@ const restaurant = {
   categories: ["Italian", "Pizzeria", "Vegetarian", "Organic"],
   starterMenu: ["Focaccia", "Bruschetta", "Garlic Bread", "Caprese Salad"],
   mainMenu: ["Pizza", "Pasta", "Risotto"],
-
   openingHours: {
     thu: {
       open: 12,
@@ -21,7 +20,6 @@ const restaurant = {
       close: 24,
     },
   },
-
   orderPizza(mainItem, ...optionalItems) {
     console.log(mainItem, optionalItems);
   },
